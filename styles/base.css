@@ -1,0 +1,21 @@
+footer,
+header {
+  display: grid;
+  text-align: center;
+  background-color: aqua;
+}
+header {
+  grid-template-columns: 100px auto;
+  align-items: center;
+}
+header, main, footer {
+  margin: 1.5rem auto;
+  max-width: 680px;
+}
+body{
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Merriweather', serif;
+  color: #333;
+}
+
