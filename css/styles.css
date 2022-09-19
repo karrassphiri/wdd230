@@ -24,10 +24,10 @@ body {
   color: #333;
 }
 
-h1 {
+body header h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
+body main nav h2 {
   font-family: 'Merriweather', serif;
 }
