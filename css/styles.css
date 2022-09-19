@@ -4,18 +4,30 @@ header {
   text-align: center;
   background-color: aqua;
 }
+
 header {
   grid-template-columns: 100px auto;
   align-items: center;
 }
-header, main, footer {
+
+header,
+main,
+footer {
   margin: 1.5rem auto;
   max-width: 680px;
 }
-body{
+
+body {
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Merriweather', serif;
   color: #333;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+}
