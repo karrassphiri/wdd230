@@ -1,0 +1,42 @@
+header,
+footer {
+  background-color: #937B63;
+  display: grid;
+  align-content: center;
+  text-align: center;
+
+}
+
+header,
+footer,
+h1 h2 {
+  color: white;
+  font-family: 'Adamina', serif;
+}
+
+footer {
+  padding: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+main section picture {
+  display: block;
+  padding: 5px;
+}
+
+main section picture img {
+  width: 100%;
+  height: auto;
+}
+
+
+section {
+  padding: .5em;
+}
