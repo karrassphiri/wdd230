@@ -57,7 +57,10 @@ nav ul li a {
   text-decoration: none;
   font-size: 1rem;
 }
-
+picture img{
+  width: 100%;
+  height: auto;
+}
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -75,8 +78,9 @@ main article ul {
   margin: 1rem 0 0 1rem;
 }
 
-
-
 footer {
-  height: 2rem;
+  display: block;
+  text-align: center;
+  height: 1.5rem;
+  padding: 1em;
 }
