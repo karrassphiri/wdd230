@@ -10,18 +10,20 @@
     padding: .5em;
   }
   
-  footer,
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #bbb;
-    background-color: yellowgreen;
-    padding: 5px 0;
-  }
+
   footer{
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
     margin: .5em;
+    justify-content: space-between;
+    justify-items: left;
+  }
+  header{
+    width: 100%;
+    height:auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   .logo {
@@ -31,7 +33,7 @@
   }
   
   .logo img {
-    width: 50px;
+    width: 90px;
     height: auto;
     border-radius: 10%;
   }
@@ -43,8 +45,12 @@
   }
   
   .logo h1 {
-    font-size: 1rem;
+    font-size: 2.5rem;
     color: black;
+  }
+  aside {
+    padding: 0.5rem;
+    font-size: 2rem;
   }
   h3{
     font-size: 1rem;
@@ -60,7 +66,7 @@
   }
   
   .social img {
-    width: 30px;
+    width: 50px;
     height: auto;
     border-radius: 50%;
   
@@ -70,8 +76,7 @@
   nav button {
     margin: .2rem 2vw;
     border: none;
-    font-size: 2rem;
-    background-color: yellowgreen;
+    font-size: 3rem;
     color: #555;
   }
   
@@ -90,11 +95,24 @@
     text-decoration: none;
     color: #333;
   }
-  nav ul li.active a{
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
+  .copyright {
+    grid-row: 2;
+    grid-column: 1/4;
+    font-size: 1.2rem;
+    text-align: center;
+   
   }
-  
+  .logo2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 5px;
+  }
+  .logo2 p{
+    align-items: left;
+    justify-items: left;
+  }
   nav ul {
     display: none;
   }

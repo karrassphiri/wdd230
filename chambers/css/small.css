@@ -3,6 +3,9 @@ main {
   width: 100%;
   grid-template-columns: 1fr;
 }
+body {
+  background-color: #150578;
+}
 
 main div {
   padding: .5em;
@@ -12,10 +15,17 @@ footer,
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid #bbb;
-  background-color: yellowgreen;
-  padding: 5px 0;
+  background-color: #FF5400;
+  padding: 2px 0;
+  margin: 0;
+}
+header{
+  width: 100%;
+  height:100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 footer{
   display: grid;
@@ -31,7 +41,7 @@ footer{
 }
 
 .logo img {
-  width: 50px;
+  width: 40px;
   height: auto;
   border-radius: 10%;
 }
@@ -46,6 +56,10 @@ footer{
   font-size: 1rem;
   color: black;
 }
+.logo h2{
+  font-size: 1rem;
+
+}
 h3{
   font-size: 1rem;
   padding: 0rem;
@@ -57,10 +71,11 @@ h3{
 .social {
   display: flex;
   align-items: flex-end;
+  column-gap: 5px;
 }
 
 .social img {
-  width: 30px;
+  width: 25px;
   height: auto;
   border-radius: 50%;
 
@@ -68,10 +83,9 @@ h3{
 
 
 nav button {
-  margin: .2rem 2vw;
   border: none;
   font-size: 2rem;
-  background-color: yellowgreen;
+  background-color: #FF5400;
   color: #555;
 }
 
@@ -90,17 +104,30 @@ nav ul li a {
   text-decoration: none;
   color: #333;
 }
-nav ul li.active a{
-  background-color: rgba(0,0,0,0.2);
-  color: #fff;
-}
+
 
 nav ul {
   display: none;
 }
 nav ul.open {
   display: block;
+
 }
+
+header aside{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow:wrap;
+}
+aside {
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  padding: 0.5rem;
+  background-color: #FFC857;
+  font-size: 1rem;
+  justify-items: center;
+}
+
 .wrapper {
   display: grid;
   grid-column: 1/3;
