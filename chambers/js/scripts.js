@@ -2,6 +2,8 @@
 
 function toggleMenu(){
   document.getElementById("primaryNav").classList.toggle("open");
+	document.getElementById("hamburgerBtn").classList.toggle("open");
+
 }
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
@@ -22,10 +24,6 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 }).format(now);
 // long, medium, short options ... try them
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
-
-
-
-
 
 
 //script for year
