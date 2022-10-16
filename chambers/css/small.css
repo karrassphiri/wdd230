@@ -203,6 +203,20 @@ div.spotlight3{
   display: none;
 }
 
+.welcome {
+  position: absolute;
+  padding: 0,2;
+}
+.action {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  background-color: #FFC857;
+  color: #333;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 80px;
+}
 
 
 

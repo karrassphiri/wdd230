@@ -184,5 +184,8 @@
     border: 1px solid#555;
   }
   
-  
+  .action {
+    bottom: 35%;
+    left: 70%;
+  }
 }

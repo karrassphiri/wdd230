@@ -90,4 +90,8 @@ div.spotlight3 {
   border: 1px solid #555;
   background-color: lightgray;
 }
+.action {
+  bottom: 10%;
+  left: 57%;
+}
 }
