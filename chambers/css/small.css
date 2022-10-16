@@ -110,7 +110,8 @@ nav ul li a {
   color: white;
 }
 nav ul li a:hover{
-  background-color: #FF5400;
+  background-color: #FFC857;
+  color: black;
 }
 
 
