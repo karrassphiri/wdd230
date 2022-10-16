@@ -1,7 +1,7 @@
 //Script for the hamburger menu
 
-function toggleMenu(){
-  document.getElementById("primaryNav").classList.toggle("open");
+function toggleMenu() {
+	document.getElementById("primaryNav").classList.toggle("open");
 	document.getElementById("hamburgerBtn").classList.toggle("open");
 
 }
@@ -16,7 +16,9 @@ const datefieldUK = document.querySelector("aside"); // for european/family hist
 
 // derive the current date using a date object
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+const fulldate = new Intl.DateTimeFormat("en-US", {
+	dateStyle: "full"
+}).format(
 	now
 );
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
@@ -27,10 +29,26 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
 //script for year
-const year = {year:'numeric'};
+const year = {
+	year: 'numeric'
+};
 document.getElementById('year').textContent = new Date().toLocaleDateString('en-US', year);
 
 //script for date
-const options = {day: 'numeric', month: 'long', year:'numeric'};
+const options = {
+	day: 'numeric',
+	month: 'long',
+	year: 'numeric'
+};
 document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', options);
 
+/* ANNOUNCEMENT BANNER */
+
+const announcementbanner = document.querySelector(".announcement-banner");
+if (now.getDay() === 2 || now.getDay() === 3) {
+	//if today is Monday or Tuesday, display the announcement banner
+	announcementbanner.style.display = "flex";
+} else {
+	//otherwise do not display it
+	announcementbanner.style.display = "none";
+}
