@@ -6,6 +6,7 @@ header {
   background-color: #FF5400;
   padding: 2px 0;
   margin: 0;
+  color: white;
 }
 header{
   flex-direction: row;
@@ -50,7 +51,7 @@ main div {
 
 .logo h1 {
   font-size: 1rem;
-  color: black;
+  color: white;
 }
 
 h3{
@@ -79,7 +80,7 @@ nav button {
   border: none;
   font-size: 2rem;
   background-color: #FF5400;
-  color: #555;
+  color: whitesmoke;
 }
 
 nav {
@@ -95,7 +96,7 @@ nav ul li a {
   display: block;
   padding: 1rem;
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 nav ul li a:hover{
   background-color: #FFC857;
@@ -121,6 +122,7 @@ aside {
   padding: 0.5rem;
   background-color: #FFC857;
   font-size: .5rem;
+  color: black;
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -207,16 +209,4 @@ div.spotlight3{
   position: absolute;
   padding: 0,2;
 }
-.action {
-  position: absolute;
-  bottom: 50%;
-  left: 10%;
-  background-color: #FFC857;
-  color: #333;
-  font-size: 15px;
-  padding: 10px;
-  border-radius: 80px;
-}
-
-
 
