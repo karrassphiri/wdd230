@@ -45,7 +45,7 @@ document.getElementById('date').textContent = new Date().toLocaleDateString('en-
 /* ANNOUNCEMENT BANNER */
 
 const announcementbanner = document.querySelector("announcement");
-if (now.getDay() === 2 || now.getDay() === 3) {
+if (now.getDay() === 1 || now.getDay() === 2) {
 	//if today is Monday or Tuesday, display the announcement banner
 	announcementbanner.style.display = "flex";
 } else {

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
-  <meta name="description" content="This is a home page of my week 2 assignment, MT">
+  <meta name="description" content="This is a home page of my Chambers assignment, MT">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Serif&display=swap" rel="stylesheet">
@@ -25,8 +25,8 @@
     <div class="logo">
       <img src="images/lccilogo.png" alt="lccilogo">
       <div class="heading">
-        <h1>Lilongwe <br>
-          Chambers of commerce</h1>
+        <h1>Lilongwe </h1>
+        <h2>Chambers of commerce</h2>
       </div>
     </div>
     <nav>
@@ -53,32 +53,46 @@
 
     <div class="hero">
       <h3 class="welcome">Welcome to Lilongwe Chambers of Commerce</h3>
-      <img class="banner" src="images/hero.jpg" alt="Banner image for hero">
+      <picture class="banner">
+        <source srcset="images/large.jpg" media="(min-width:960px)">
+        <source srcset="images/medium.jpg" media="(min-width:564px) and (max-width:958px)">
+        <img src="images/small.jpg" alt="Hero image">
+      </picture>
       <div class="calltoaction">
-        <p>Join LCC </p>  
+        <p>Join LCC </p>
       </div>
     </div>
     <div class="event">
       <h3>Event</h3>
       <p>
-        Make it a point to attend our upcoming exihibition happening on December 27th 2022.
-      </p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit orci eu purus tristique lobortis.
+        Vestibulum ut dictum tortor, sollicitudin auctor augue. Sed venenatis lorem ac faucibus ultricies. Etiam
+        neque magna, porttitor vitae venenatis eget. </p>
     </div>
     <div class="weather">
-      <h3>Weather</h3>
+      <h3>Weather Report</h3>
+      <p>Wind Speed: <span id="speed">20</span>km/h</p>
+      <p>Temperature: <span id="temp">40</span>°F</p>
+      <p>Wind Chill: <span id="windchill"></span>°F</p>
     </div>
     <div class="news">
       <h3>News Release</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum repellat voluptatibus nisi veniam
-        suscipit, excepturi aliquid consequuntur maiores vitae eligendi necessitatibus.</p>
+        suscipit, excepturi aliquid consequuntur maiores vitae eligendi necessitatibus.
+        consectetur adipiscing elit. Morbi hendrerit orci eu purus tristique lobortis.
+        Vestibulum ut dictum tortor, sollicitudin auctor augue. Sed venenatis lorem ac faucibus ultricies. Etiam
+        neque magna, porttitor vitae venenatis eget.
+        consectetur adipiscing elit. </p>
     </div>
     <div class="wrapper">
       <div class="spotlight1">
-        <h3>spotlight1</h3>
+        <h3>We Deliver at your convinience</h3>
+        <div class="van">
+          <img src="images/van.jpg" alt="">
+        </div>
       </div>
       <div class="spotlight2">
         <h3>spotlight2</h3>
-        
       </div>
       <div class="spotlight3">
         <h3>spotlight2</h3>
@@ -101,7 +115,7 @@
           Malawi
         </p>
       </div>
-      
+
     </div>
     <div class="address">
 
@@ -119,6 +133,7 @@
 
   </footer>
   <script src="js/scripts.js"></script>
+  <script src="js/windchill.js"></script>
 </body>
 
 </html>
