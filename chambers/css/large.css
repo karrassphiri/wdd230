@@ -29,6 +29,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #eee;
+    max-width: 850px;
     
   }
   .logo h1 {
@@ -90,11 +91,14 @@ div.spotlight1 {
 div.spotlight2 {
   grid-column: 3;
   grid-row: 2;
+  width: 150px;
+
 }
 div.spotlight3 {
   display: grid;
   grid-column: 3;
   grid-row: 3;
+  width: 150px;
   height: 150px;
   border: 1px solid #555;
   background-color: lightgray;
