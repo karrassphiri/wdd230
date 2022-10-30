@@ -52,3 +52,39 @@ if (now.getDay() === 1 || now.getDay() === 2) {
 	//otherwise do not display it
 	announcementbanner.style.display = "none";
 }
+
+/*NUMBER OF VISITS*/
+
+const numVisits = document.querySelector('.numOfVisit');
+
+const numOfVisits = Number(window.localStorage.getItem('visits'));
+const lastVisit= Number(window.localStorage.getItem('lastVisits'));
+
+const FACTOR = 1000 * 60 * 60 * 24;
+
+const daysBetween = Date.now() - lastVisit;
+
+const numOfDays = Math.ceil(daysBetween / FACTOR);
+
+localStorage.setItem('lastVisits', Date.now());
+
+if (numOfVisits != 0) {
+
+    numVisits.textContent = 'It\'s been ' + numOfDays + ' day(s) since you last visited.'
+
+} else {
+    numVisits.textContent = 'This is your first visit on this site.'
+}
+
+numOfVisits++;
+
+localStorage.setItem("visits", numOfVisits);
+
+
+
+
+
+
+
+
+

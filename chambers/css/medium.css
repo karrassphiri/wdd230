@@ -191,4 +191,24 @@
     width: 100%;
     height: auto;
   }
+/*css specification for discover page*/
+#discover {
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .media-disp {
+  width: 90%;
+  transition: ease-in-out 0.5s;
+  transform: scale(0.9);
+  text-align: center;
+}
+.media-disp:hover {
+  transform: scale(1);
+  box-shadow: 0 0 50px orange;
+}
+main picture img{
+  width: 100%;
+  height: auto;
+}
+
 }
