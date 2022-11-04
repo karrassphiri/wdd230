@@ -14,11 +14,11 @@ caption {
 }
 
 tr:first-child th, .highlight {
-  background-color: aquamarine;
-  color:red;
+  background-color:#333;
+  color:whitesmoke;
 }
 .highlight{
-  background-color: aquamarine;
+  background-color: orangered;
 }
 td, th {
   border: 1px solid rgb(190,190,190);
@@ -26,12 +26,13 @@ td, th {
 }
 
 th {
-  background-color: aqua;
+  background-color: #999;
 }
 
 td {
   text-align: center;
 }
-tbody tr:nth-child(odd) {
-	background-color: var(--zebra);
+tbody tr:nth-child(even) {
+	background-color: #444;
+  color: white;
 }
