@@ -115,7 +115,7 @@ div.spotlight3 {
  }
 
 .media-disp {
-  width: 50%;
+  width: 60%;
   transition: ease-in-out 0.5s;
   transform: scale(0.9);
   box-shadow: 5px 5px 5px 2px blue;
