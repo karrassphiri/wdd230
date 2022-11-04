@@ -4,7 +4,7 @@ const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 //this tells the system when to load the images.
 const imgOptions = { 
-    threshold: .8, 
+    threshold: .7, 
     rootMargin: "0px 0px 50px 0px" 
 };
 //In the function below when the image gets loaded it will start with a blur and after loading the blur will disapper.
