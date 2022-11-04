@@ -110,12 +110,12 @@ div.spotlight3 {
 
 /*css specification for discover page*/
 #discover {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 10px;
  }
 
 .media-disp {
-  width: 90%;
+  width: 50%;
   transition: ease-in-out 0.5s;
   transform: scale(0.9);
   box-shadow: 5px 5px 5px 2px blue;
