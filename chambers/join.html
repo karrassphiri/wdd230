@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico">
+  <title>Chambers of Commerce Home Page</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <meta name="description" content="This is a home page of my Chambers assignment, MT">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="announcement">
+    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+  </div>
+  <header>
+    <div class="logo">
+      <img src="images/lccilogo.png" alt="lccilogo">
+      <div class="heading">
+        <h1>Lilongwe </h1>
+        <h2>Chambers of commerce</h2>
+      </div>
+    </div>
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+      <ul id="primaryNav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook image"></a>
+        <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
+      </div>
+    </nav>
+    <aside>
+      <div class="date1"></div>
+    </aside>
+
+  </header>
+
+  <main class="form">
+
+    <h1>LCC Registration Form</h1>
+    <form method="get" action="thankyou.html">
+      <fieldset>
+        <legend>Applicant information</legend>
+        <label class="top"> First Name*: <input type="text" name="fname" required> </label>
+        <label class="top"> Last Name*: <input type="text" name="lname" required> </label>
+        <label class="top"> Business Position: <input type="text" name="position" pattern="[A-Z a-z-' ']{7,}"> </label>
+        <label class="top"> Phone: <input type="tel" name="phone" placeholder="87576674476"> </label>
+        <label class="top"> Email*: <input type="email" name="email" placeholder="phirikarrass@gmail.com" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Business Information</legend>
+        <label class="top"> Business Name*: <input type="text" name="bname" required> </label>
+        <label class="top"> Business sector: <input type="text" name="bsector"> </label>
+        <label class="top">Business size
+          <select name="bsize">
+            <option value="">Please Select</option>
+            <option value="smallsize">Small</option>
+            <option value="mediumsize">Medium</option>
+            <option value="largesize">Large</option>
+
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Membership Level</legend>
+        <input type="hidden" id="theDate" name="theDate" value="">
+        <label class="mlevel"><input type="radio" name="mlevel" value="np">NP Membership</label>
+        <label class="mleve"><input type="radio" name="mlevel" value="broze">Bronze Membership</label>
+        <label class="mlevel"><input type="radio" name="mlevel" value="silver">Silver Membership</label>
+        <label class="mlevel"><input type="radio" name="mlevel" value="gold">Gold Membership</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Business Summary</legend>
+        <label class="submitButton" for="msg">Decribe your Business here</label>
+        <label><textarea class="commentsBox" id="msg" name="user_message"></textarea></label>
+      </fieldset>
+      <input type="submit" value="Send Application Form" class="submitBtn">
+    </form>
+
+
+  </main>
+
+  <footer>
+
+    <div class="logo2">
+      <img src="images/lccilogo.png" alt="lccilogo">
+      <div class="address">
+        <p>
+          Lilongwe Chambers of Commerce,
+          P.O.Box 100,
+          Lilongwe,
+          Malawi
+        </p>
+      </div>
+
+    </div>
+    <div class="address">
+
+    </div>
+    <div class="contact">
+      <p>
+        Email: phirikarrass@gmail.com <br>
+        Phone: +(265) 999 844 550
+      </p>
+
+    </div>
+    <p class="copyright">
+      &copy; <span id="year"></span> |Karrass Phiri| Malawi| WDD 230 Project| Last modified: <span id="date"></span>
+    </p>
+
+  </footer>
+  <script src="js/scripts.js"></script>
+  <script src="js/windchill.js"></script>
+</body>
+
+</html>

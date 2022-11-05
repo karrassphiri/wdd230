@@ -211,4 +211,27 @@ main picture img{
   height: auto;
 }
 
+
+/*css specification for Join page*/
+
+main.form h1 {
+  font-size: 2rem;
 }
+form fieldset {
+  margin: 1rem 0;
+  padding: 1rem 2%;
+}
+form legend {
+  font-size: 2rem;
+}
+form label.top {
+  font-size: 1.5rem;
+}
+
+form input.submitBtn{
+  color: black;
+  font-size: 1.5rem;
+
+}
+}
+

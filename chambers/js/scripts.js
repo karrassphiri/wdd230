@@ -41,6 +41,8 @@ const options = {
 	year: 'numeric'
 };
 document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', options);
+//Date for the hidden field on a form in the Join page
+document.getElementById('theDate').textContent = new Date().toLocaleDateString('en-US', options);
 
 /* ANNOUNCEMENT BANNER */
 
@@ -79,11 +81,6 @@ if (numOfVisits != 0) {
 numOfVisits++;
 
 localStorage.setItem("visits", numOfVisits);
-
-
-
-
-
 
 
 

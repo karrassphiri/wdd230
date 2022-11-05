@@ -125,4 +125,28 @@ div.spotlight3 {
   transform: scale(1);
   box-shadow: 0 0 50px orange;
 }
+/*css specification for Join page*/
+
+main.form{
+  max-width: 800px;
+}
+main.form h1 {
+  font-size: 2rem;
+}
+form fieldset {
+  margin: 1rem 0;
+  padding: 1rem 2%;
+}
+form legend {
+  font-size: 2rem;
+}
+form label.top {
+  font-size: 1.5rem;
+}
+
+form input.submitBtn{
+  color: black;
+  font-size: 1.5rem;
+
+}
 }
