@@ -234,7 +234,10 @@ form input.submitBtn{
 
 }
 form fieldset.benefits {
+  display: grid;
   position: absolute;
+  
+
 }
 }
 
