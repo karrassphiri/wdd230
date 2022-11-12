@@ -58,24 +58,12 @@
         <label class="top"> First Name*: <input type="text" name="fname" required> </label>
         <label class="top"> Last Name*: <input type="text" name="lname" required> </label>
         <label class="top"> Business Position: <input type="text" name="position" pattern="[A-Z a-z-' ']{7,}"> </label>
+        <label class="top"> Business Name*: <input type="text" name="bname" required> </label>
         <label class="top"> Phone: <input type="tel" name="phone" placeholder="87576674476"> </label>
         <label class="top"> Email*: <input type="email" name="email" placeholder="phirikarrass@gmail.com" required>
         </label>
       </fieldset>
-      <fieldset>
-        <legend>Business Information</legend>
-        <label class="top"> Business Name*: <input type="text" name="bname" required> </label>
-        <label class="top"> Business sector: <input type="text" name="bsector"> </label>
-        <label class="top">Business size
-          <select name="bsize">
-            <option value="">Please Select</option>
-            <option value="smallsize">Small</option>
-            <option value="mediumsize">Medium</option>
-            <option value="largesize">Large</option>
 
-          </select>
-        </label>
-      </fieldset>
       <fieldset>
         <legend>Membership Level</legend>
         <input type="hidden" id="theDate" name="theDate" value="">
@@ -91,7 +79,31 @@
         <label><textarea class="commentsBox" id="msg" name="user_message"></textarea></label>
       </fieldset>
       <input type="submit" value="Send Application Form" class="submitBtn">
+
+      <fieldset class="benefits">
+        <h2>Membership Level Benefits</h2>
+        <ol>
+          <li><strong>Gold Membership:</strong>
+            <ul>
+              <li>1 year free trainings</li>
+              <li>lowest loan interest</li>
+              <li>Free advertisements for 1 year</li>
+            </ul>
+          <li><strong>Silver Membership:</strong>
+            <ul>
+              <li>6 months free trainings</li>
+              <li>lowest loan interest</li>
+              <li>Free advertisements for 6 months</li>
+            </ul>
+          <li><strong>Bronze Membership:</strong>
+            <ul>
+              <li>50% discount on training fee</li>
+              <li>10% discount on advertisements for 1 year</li>
+            </ul>
+        </ol>
+      </fieldset>
     </form>
+
 
 
   </main>

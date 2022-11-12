@@ -297,6 +297,7 @@ main picture img{
 }
 /*CSS specifications for Join page*/
 main.form{
+  position: relative;
   background-color: #eee;
   display: grid;
   grid-template-columns: 1fr;
@@ -393,4 +394,11 @@ main p.status2{
 }
 main div.join p.joininfo{
   margin-top: 0px;
+}
+form fieldset.benefits {
+  bottom: 270px;
+  right: 50px;
+  background-color: #150578;
+  padding: .5rem;
+  color: #999;
 }

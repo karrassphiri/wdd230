@@ -233,5 +233,8 @@ form input.submitBtn{
   font-size: 1.5rem;
 
 }
+form fieldset.benefits {
+  position: absolute;
+}
 }
 
