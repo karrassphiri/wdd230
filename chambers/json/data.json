@@ -1,76 +1,87 @@
+
+
 {
   "businesses": [
     {
       "name": "Ellen Fashion wear",
-      "address": "Box 17, Karonga",
-      "phonenumber": "099 834 558",
-      "imageurl": "",
-      "location": "Karonga",
-      "membershiplevel": "Gold"
+      "address": "Box 129, Karonga, Malawi",
+      "phone": "0999 372 422",
+      "site": "http://www.ells.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Bronze",
+      "motto":  "Look Smart, Look modern."
     },
     {
       "name": "Amos Accountant consultants",
-      "address": "Box 118, Lilongwe",
-      "phonenumber": "0999 722 422",
-      "imageurl": "",
-      "location": "Lilongwe, Area 49",
-      "membershiplevel": "Gold"
+      "address": "area 49, Shire block A",
+      "phone": "0999 483 642",
+      "site": "https://amosconsultant.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Bronze",
+      "motto": "Manage your finances with us."
     },
     {
       "name": "J & J Home suppliers",
-      "address": "Box 100, Lilongwe",
-      "phonenumber": "0995 659 998",
-      "imageurl": "",
-      "location": "Kawale, Lilongwe",
-      "membershiplevel": "Gold"
+      "address": "Kawala market, area 8",
+      "phone": "0888 342 432",
+      "site": "https://jojahomies.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Gold",
+      "motto": "Where you can find your home."
     },
     {
       "name": "J & J Saloon and Barbershop",
-      "address": "Box 100",
-      "phonenumber": "0999 833 473",
-      "imageurl": "",
-      "location": "Kawale, Lilongwe",
-      "membershiplevel": "Silver"
+      "address": "Kawala market, area 8",
+      "phone": "0888 342 432",
+      "site": "https://jojahomies.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membershi": "Bronze",
+      "motto": "Look smart in town."
     },
     {
       "name": "Triza General Consultants",
-      "address": "Box 382",
-      "phonenumber": "0888 237 283",
-      "imageurl": "",
-      "location": "Balaka",
-      "membershiplevel": "Gold"
+      "address": "area 36",
+      "phone": "0999 433 722",
+      "site": "https://www.trizaconsults.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Silver",
+      "motto": "We advise, you implement."
     },
     {
       "name": "Mai Silvana",
-      "address": "Box 972",
-      "phonenumber": "0999 323 422",
-      "imageurl": "",
-      "location": "Mitundu, Lilongwe",
-      "membershiplevel": "Bronze"
+      "address": "Likuni, By-pass road",
+      "phone": "0999 373 133",
+      "site": "https://farmproduce.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "silver",
+      "motto": "Where you can find farm produce."
     },
     {
-      "name": "Bengo All livestoke",
-      "address": "Box 68",
-      "phonenumber": "0999 432 432",
-      "imageurl": "",
-      "location": "Mitundu, Lilongwe",
-      "membershiplevel": "Bronze"
+      "name": "Bengo Food Suppliers",
+      "address": "area 2, bwalo la Njovu",
+      "phone": "0888 383 422",
+      "site": "https://bengofoodworth.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Silver",
+      "motto": "Cheap and high quality food."
     },
     {
       "name": "Pick N drop taxi",
-      "address": "Box 432",
-      "phonenumber": "0888 334 422",
-      "imageurl": "",
-      "location": "Lilongwe",
-      "membershiplevel": "Bronze"
+      "address": "Biwi, area 7",
+      "phone": "0999 833 784",
+      "site": "https://www.picndrop.com",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Bronze",
+      "motto": "In time and everywhere"
     },
     {
       "name": "Phiri Crop supplier",
-      "address": "Box 292",
-      "phonenumber": "0888 372 321",
-      "imageurl": "",
-      "location": "Malingunde, Lilongwe",
-      "membershiplevel": "Bronze"
+      "address": "Likuni, along By-pass road",
+      "phone": "0888 284 273",
+      "site": "https://www.farmerzone.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Bronze",
+      "motto": "We take you to the farm."
     }
   ]
 }
