@@ -405,3 +405,134 @@ form fieldset.benefits {
   width: fit-content;
   padding: .5rem;
 }
+/*CSS specifications for Directory page*/
+#directory {
+  margin-top: 15px;
+  text-align: center;
+  background-color: #bbb;
+}
+
+#directory,
+section img,
+.socialMedia svg:nth-child(1) {
+  padding: 10px 0;
+}
+
+#directory button,
+section {
+  padding: 15px;
+}
+
+article {
+  margin: 15px 0;
+}
+
+section a {
+  padding: 5px;
+  font-size: 18px;
+  color: blue;
+}
+
+section a,
+.spots h3 {
+  word-wrap: break-word;
+}
+
+section p, section h3 {
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.grid section {
+  flex-direction: column;
+}
+
+.grid section > * {
+  margin: 2px;
+}
+
+.list section:nth-child(even) {
+  background-color: rgba(37, 150, 190, 0.5);
+}
+
+section h3 {
+  font-size: 24px;
+}
+
+.list h3, .list p{
+  width: 100%;
+}
+.directory {
+  display: block;
+  width: auto;
+}
+
+section img {
+  width: 100%;
+}
+
+.list {
+display: flex;
+flex-direction: column;
+}
+
+.list section {
+display: flex;
+align-items: center;
+}
+
+.grid section {
+flex-direction: column;
+text-align: center;
+}
+
+.grid section > * {
+margin: 0.1rem;
+}
+
+.list section {
+flex-direction: column;
+justify-content: left;
+}
+
+.list section > * {
+margin: 0 1rem;
+text-align: left;
+}
+
+.list .section img {
+display: none; 
+}
+
+section h3 {
+font-size: 1.5rem;
+}
+
+section a {
+font-family: "Roboto", Arial, sans-serif;
+font-size: 0.9rem;
+}
+
+img {
+max-width: 100%;
+}
+
+@media (min-width: 700px) {
+.list section img {
+  display: block;
+}
+}
+.section {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.directory h1 {
+  text-align: center;
+}
