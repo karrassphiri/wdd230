@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico">
+  <title>Chambers of Commerce Home Page</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <meta name="description" content="This is a home page of my Chambers assignment, MT">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="announcement">
+    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+  </div>
+  <header>
+    <div class="logo">
+      <img src="images/lccilogo.png" alt="lccilogo">
+      <div class="heading">
+        <h1>Lilongwe </h1>
+        <h2>Chambers of commerce</h2>
+      </div>
+    </div>
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+      <ul id="primaryNav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook image"></a>
+        <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
+      </div>
+    </nav>
+    <aside>
+      <div class="date1"></div>
+    </aside>
+
+  </header>
+
+  <main id="directory">
+    <h1>LCC Business Directory</h1>
+    <div class="directorymenu">
+      <button id="grid">Grid</button>
+      <button id="list">List</button>
+    </div>
+    <div id="cards" class="cards"></div>
+  </main>
+  <footer>
+
+    <div class="logo2">
+      <img src="images/lccilogo.png" alt="lccilogo">
+      <div class="address">
+        <p>
+          Lilongwe Chambers of Commerce,
+          P.O.Box 100,
+          Lilongwe,
+          Malawi
+        </p>
+      </div>
+
+    </div>
+    <div class="address">
+
+    </div>
+    <div class="contact">
+      <p>
+        Email: phirikarrass@gmail.com <br>
+        Phone: +(265) 999 844 550
+      </p>
+
+    </div>
+    <p class="copyright">
+      &copy; <span id="year"></span> |Karrass Phiri| Malawi| WDD 230 Project| Last modified: <span id="date"></span>
+    </p>
+    <p class="visits"></p>
+  </footer>
+  <script src="js/scripts.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/lazyload.js"></script>
+</body>
+
+</html>

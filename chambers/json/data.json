@@ -1,0 +1,76 @@
+{
+  "businesses": [
+    {
+      "name": "Ellen Fashion wear",
+      "address": "Box 17, Karonga",
+      "phonenumber": "099 834 558",
+      "imageurl": "",
+      "location": "Karonga",
+      "membershiplevel": "Gold"
+    },
+    {
+      "name": "Amos Accountant consultants",
+      "address": "Box 118, Lilongwe",
+      "phonenumber": "0999 722 422",
+      "imageurl": "",
+      "location": "Lilongwe, Area 49",
+      "membershiplevel": "Gold"
+    },
+    {
+      "name": "J & J Home suppliers",
+      "address": "Box 100, Lilongwe",
+      "phonenumber": "0995 659 998",
+      "imageurl": "",
+      "location": "Kawale, Lilongwe",
+      "membershiplevel": "Gold"
+    },
+    {
+      "name": "J & J Saloon and Barbershop",
+      "address": "Box 100",
+      "phonenumber": "0999 833 473",
+      "imageurl": "",
+      "location": "Kawale, Lilongwe",
+      "membershiplevel": "Silver"
+    },
+    {
+      "name": "Triza General Consultants",
+      "address": "Box 382",
+      "phonenumber": "0888 237 283",
+      "imageurl": "",
+      "location": "Balaka",
+      "membershiplevel": "Gold"
+    },
+    {
+      "name": "Mai Silvana",
+      "address": "Box 972",
+      "phonenumber": "0999 323 422",
+      "imageurl": "",
+      "location": "Mitundu, Lilongwe",
+      "membershiplevel": "Bronze"
+    },
+    {
+      "name": "Bengo All livestoke",
+      "address": "Box 68",
+      "phonenumber": "0999 432 432",
+      "imageurl": "",
+      "location": "Mitundu, Lilongwe",
+      "membershiplevel": "Bronze"
+    },
+    {
+      "name": "Pick N drop taxi",
+      "address": "Box 432",
+      "phonenumber": "0888 334 422",
+      "imageurl": "",
+      "location": "Lilongwe",
+      "membershiplevel": "Bronze"
+    },
+    {
+      "name": "Phiri Crop supplier",
+      "address": "Box 292",
+      "phonenumber": "0888 372 321",
+      "imageurl": "",
+      "location": "Malingunde, Lilongwe",
+      "membershiplevel": "Bronze"
+    }
+  ]
+}
