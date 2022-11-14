@@ -498,8 +498,9 @@ section a {
 	font-size: 1rem;
 }
 
-img {
-	max-width: 100%;
+#directory img {
+	width: 200px;
+  height: 200px;
 }
 
 @media (min-width: 700px) {
