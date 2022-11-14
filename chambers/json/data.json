@@ -7,7 +7,7 @@
       "address": "Box 129, Karonga, Malawi",
       "phone": "0999 372 422",
       "site": "http://www.ells.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
       "membership": "Bronze",
       "motto":  "Look Smart, Look modern."
     },
@@ -16,7 +16,7 @@
       "address": "area 49, Shire block A",
       "phone": "0999 483 642",
       "site": "https://amosconsultant.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/amospic.jpg",
       "membership": "Bronze",
       "motto": "Manage your finances with us."
     },
@@ -25,7 +25,7 @@
       "address": "Kawala market, area 8",
       "phone": "0888 342 432",
       "site": "https://jojahomies.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/home.jpg",
       "membership": "Gold",
       "motto": "Where you can find your home."
     },
@@ -34,7 +34,7 @@
       "address": "Kawala market, area 8",
       "phone": "0888 342 432",
       "site": "https://jojahomies.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/bbshop.jpg",
       "membershi": "Bronze",
       "motto": "Look smart in town."
     },
@@ -43,7 +43,7 @@
       "address": "area 36",
       "phone": "0999 433 722",
       "site": "https://www.trizaconsults.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/trizacons.jpg",
       "membership": "Silver",
       "motto": "We advise, you implement."
     },
@@ -52,17 +52,17 @@
       "address": "Likuni, By-pass road",
       "phone": "0999 373 133",
       "site": "https://farmproduce.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/silvfam.jpg",
       "membership": "silver",
       "motto": "Where you can find farm produce."
     },
     {
-      "name": "Bengo Food Suppliers",
+      "name": "Bengo Restaurant",
       "address": "area 2, bwalo la Njovu",
       "phone": "0888 383 422",
       "site": "https://bengofoodworth.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
-      "membership": "Silver",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/restaurant.jpg",
+      "membership": "Bronze",
       "motto": "Cheap and high quality food."
     },
     {
@@ -79,7 +79,7 @@
       "address": "Likuni, along By-pass road",
       "phone": "0888 284 273",
       "site": "https://www.farmerzone.com/",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/placeholder.png",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/foodshop.jpg",
       "membership": "Bronze",
       "motto": "We take you to the farm."
     }
