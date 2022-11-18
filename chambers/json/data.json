@@ -8,7 +8,7 @@
       "phone": "0999 372 422",
       "site": "http://www.ells.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "membership": "Bronze",
+      "membership": "Gold",
       "motto":  "Motto: Look Smart, Look modern."
     },
     {
@@ -17,7 +17,7 @@
       "phone": "0999 483 642",
       "site": "https://amosconsultant.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/amosconsultant.jpg",
-      "membership": "Bronze",
+      "membership": "Gold",
       "motto": "Manage your finances with us."
     },
     {
@@ -26,7 +26,7 @@
       "phone": "0888 342 432",
       "site": "https://jojahomies.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/home.jpg",
-      "membership": "Gold",
+      "membership": "Silver",
       "motto": "Where you can find your home."
     },
     {
@@ -35,7 +35,7 @@
       "phone": "0888 342 432",
       "site": "https://jojahomies.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/bbshop.jpg",
-      "membershi": "Bronze",
+      "membership": "Silver",
       "motto": "Look smart in town."
     },
     {
@@ -53,7 +53,7 @@
       "phone": "0999 373 133",
       "site": "https://farmproduce.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/silvfam.jpg",
-      "membership": "silver",
+      "membership": "Silver",
       "motto": "Where you can find farm produce."
     },
     {
