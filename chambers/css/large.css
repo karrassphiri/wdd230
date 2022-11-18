@@ -56,7 +56,7 @@
   grid-column: 2/4;
   grid-row: 1/3;
   width: auto;
-  height: 400px;
+  height: 600px;
 }
 .event {
   grid-column: 1;
@@ -79,7 +79,7 @@
   display: grid;
   grid-column: 4;
   grid-row: 1/4;
-  height: 600px;
+  height: 800px;
 
 }
 div.spotlight1 {
