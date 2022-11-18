@@ -18,7 +18,7 @@
       "site": "https://amosconsultant.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/amosconsultant.jpg",
       "membership": "Gold",
-      "motto": "Manage your finances with us."
+      "motto": "Motto: Manage your finances with us."
     },
     {
       "name": "J & J Home suppliers",
@@ -27,7 +27,7 @@
       "site": "https://jojahomies.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/home.jpg",
       "membership": "Silver",
-      "motto": "Where you can find your home."
+      "motto": "Motto: Where you can find your home."
     },
     {
       "name": "J & J Saloon and Barbershop",
@@ -36,7 +36,7 @@
       "site": "https://jojahomies.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/bbshop.jpg",
       "membership": "Silver",
-      "motto": "Look smart in town."
+      "motto": "Motto: Look smart in town."
     },
     {
       "name": "Triza General Consultants",
@@ -45,7 +45,7 @@
       "site": "https://www.trizaconsults.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/trizacons.jpg",
       "membership": "Silver",
-      "motto": "We advise, you implement."
+      "motto": "Motto: We advise, you implement."
     },
     {
       "name": "Mai Silvana",
@@ -54,7 +54,7 @@
       "site": "https://farmproduce.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/silvfam.jpg",
       "membership": "Silver",
-      "motto": "Where you can find farm produce."
+      "motto": "Motto: Where you can find farm produce."
     },
     {
       "name": "Bengo Restaurant",
@@ -63,7 +63,7 @@
       "site": "https://bengofoodworth.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/restaurant.jpg",
       "membership": "Bronze",
-      "motto": "Cheap and high quality food."
+      "motto": "Motto: Cheap and high quality food."
     },
     {
       "name": "Pick N drop taxi",
@@ -72,7 +72,7 @@
       "site": "https://www.picndrop.com",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
       "membership": "Bronze",
-      "motto": "In time and everywhere"
+      "motto": "Motto: In time and everywhere"
     },
     {
       "name": "Phiri Crop supplier",
@@ -81,7 +81,7 @@
       "site": "https://www.farmerzone.com/",
       "photo": "https://karrassphiri.github.io/wdd230/chambers/images/foodshop.jpg",
       "membership": "Bronze",
-      "motto": "We take you to the farm."
+      "motto": "Motto: We take you to the farm."
     }
   ]
 }
