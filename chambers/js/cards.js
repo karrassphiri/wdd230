@@ -2,7 +2,8 @@ const reqtURL = 'https://karrassphiri.github.io/wdd230/chambers/json/data.json';
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.getElementById("cards");
+const display = document.querySelector("#cards");
+
 
 function buildBusinessCards(info, type) {
   let data = info.businesses;
@@ -66,3 +67,4 @@ listbutton.addEventListener("click", () => {
     display.classList.remove("grid");
   
 });
+
