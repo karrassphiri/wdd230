@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico">
+  <title>Chambers of Commerce Home Page</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <meta name="description" content="This is a a contact page of my Chambers assignment, MT">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="announcement">
+    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+  </div>
+  <header>
+    <div class="logo">
+      <img src="images/lccilogo.png" alt="lccilogo">
+      <div class="heading">
+        <h1>Lilongwe </h1>
+        <h2>Chambers of commerce</h2>
+      </div>
+    </div>
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+      <ul id="primaryNav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+      <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
+        <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
+      </div>
+    </nav>
+    <aside>
+      <div class="date1"></div>
+    </aside>
+
+  </header>
+  <main class="contactus">
+    <h1 class="contact">Contact LCC</h1>
+    <hr>
+    <table>
+      <tr>
+      <th colspan="3" scope="colgroup">
+        Board members contact details
+      </th>
+      </tr>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Title</th>
+        <th scope="col">Phone number</th>
+      </tr>
+      <tr>
+        <td>Mr. K Phiri</td>
+        <td>President</td>
+        <td>0999 844 550</td>
+      </tr>
+      <tr>
+        <td>Mr Gilbert Phiri</td>
+        <td>Vice President</td>
+        <td>0999 933 472</td>
+      </tr>
+      <tr>
+        <td>Ms Shakira Banda</td>
+        <td>Treasurer</td>
+        <td>0888 422 444</td>
+      </tr>
+      <tr>
+        <td>Mrs Cynthia Maulidi</td>
+        <td>Secretary</td>
+        <td>0888 422 444</td>
+      </tr>
+      <tr>
+        <td>Mr Mc Yonna Austin</td>
+        <td>Board member</td>
+        <td>0888 292 864</td>
+      </tr>
+    </table>
+    
+    <p class="forminstruction">Please fill your details below for us to contact you back</p>
+
+    <form class="contactform" method="get" action="thanks.html">
+      <fieldset>
+        <legend>Leave your details here</legend>
+        <label class="top">First Name*<input type="text" name="fname" required></label>
+        <label class="top">Last Name*<input type="text" name="lname" required></label>
+        <label class="top">Phone*<input type="tel" name="phone" required placeholder="+265 999 999 999"></label>
+        <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+        <label class="top">Inquiry Type
+          <select name="subject">
+            <option value="">Please select one</option>
+            <option value="events">Events</option>
+            <option value="loans">loans</option>
+            <option value="membership">Membership</option>
+            <option value="advice">Business advice</option>
+            <option value="others">Others</option>
+          </select>
+        </label>
+        <label class="top">Additional information</label>
+        <label><textarea class="commentsBox" id="msg" name="user_message"></textarea></label>
+      </fieldset>
+      <input type="submit" value="Send my contact details" class="submitBtn">
+    </form>
+    <section>
+      <div class="location">
+        <h2>Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d967.8651722241045!2d33.798405!3d-13.990676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5ec7c10cab3dfe90!2sKawale%20Filling%20Station!5e0!3m2!1sen!2sus!4v1669160826516!5m2!1sen!2sus"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    
+      <div class="findus">
+        <img src="images/findus.png" alt="find us">
+        <p>Find us near Kawale Filling Station</p>
+      </div>
+      <div class="findus2">
+        <img src="images/email.png" alt="email us">
+        <p>Email: phirikarrass@gmail.com</p>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+
+    <div class="logo2">
+      <img src="images/lccilogo.png" alt="lccilogo">
+      <div class="address">
+        <p>
+          Lilongwe Chambers of Commerce,
+          P.O.Box 100,
+          Lilongwe,
+          Malawi
+        </p>
+      </div>
+
+    </div>
+    <div class="address">
+
+    </div>
+    <div class="contact">
+      <p>
+        Email: phirikarrass@gmail.com <br>
+        Phone: +(265) 999 844 550
+      </p>
+
+    </div>
+    <p class="copyright">
+      &copy; <span id="year"></span> |Karrass Phiri| Malawi| WDD 230 Project| Last modified: <span id="date"></span>
+    </p>
+    <p class="visits"></p>
+  </footer>
+  <script src="js/scripts.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/lazyload.js"></script>
+</body>
+
+</html>

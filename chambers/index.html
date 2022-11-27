@@ -14,7 +14,7 @@
   <meta name="description" content="This is a home page of my Chambers assignment, MT">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,14 +32,13 @@
     <nav>
       <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
       <ul id="primaryNav">
-        <li><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="directory.html">Directory</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
       <div class="social">
-        <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook image"></a>
+        <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
         <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
       </div>
     </nav>
@@ -57,7 +56,7 @@
       <picture class="banner">
         <source srcset="images/large.jpg" media="(min-width:960px)">
         <source srcset="images/medium.jpg" media="(min-width:564px) and (max-width:958px)">
-        <img src="images/small.jpg" alt="Hero image">
+        <img src="images/small.jpg" alt="Hero image" loading="lazy">
       </picture>
       <div class="calltoaction">
         <p> <a href="join.html">Join LCC</a> </p>
@@ -79,34 +78,44 @@
       <p>Temperature: <span id="temp"></span>°C</p>
       <p>Sky conditions: <span id="currently"></span></p>
       <figure>
-        <img src="" alt="" id="weathericon"/>
+        <img src="#" alt="#" id="weathericon">
         <figcaption></figcaption>
       </figure>
       <p>Wind Chill: <span id="windchill"></span></p>
     </div>
     <div class="news">
       <h3>News Release</h3>
-      <p>Lilongwe Chambers of Commerce has been awarded a reward for being a fast 
-        growing chamber in Malawi for the year 2022. The award came after the chambers union 
-      of Malawi met on November 1st to analyse the work that chambers of commerce do in the country.  </p>
+      <p>Lilongwe Chambers of Commerce has been awarded a reward for being a fast
+        growing chamber in Malawi for the year 2022. The award came after the chambers union
+        of Malawi met on November 1st to analyse the work that chambers of commerce do in the country. </p>
     </div>
     <div class="wrapper">
       <div class="spotlight1">
-        <h3>We deliver at your convinience</h3>
+        <h3>Ellen Fashion wear</h3>
         <div class="spotlight">
-          <img src="images/van.jpg" alt="delivery Van">
+          <img src="https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg" alt="Ellen Fashion wear">
+          <p>0999 372 422 <br>
+            http://www.ells.com/ <br>
+            <strong>Gold</strong></p>
         </div>
       </div>
       <div class="spotlight2">
-        <h3>Get trained by us to be successful</h3>
+        <h3>Amos Accountant consultants</h3>
         <div class="spotlight">
-          <img src="images/training.jpeg" alt="training session">
+          <img src="https://karrassphiri.github.io/wdd230/chambers/images/amosconsultant.jpg" alt="Amos consultants">
+          <p>0999 483 642 <br>
+            https://amoscons.com/ <br>
+            <strong>Gold</strong></p>
         </div>
+
       </div>
       <div class="spotlight3">
-        <h3>We support farming businesses as well</h3>
+        <h3>J & J Home suppliers</h3>
         <div class="spotlight">
-          <img src="images/farming.jpg" alt="farming business image">
+          <img src="https://karrassphiri.github.io/wdd230/chambers/images/home.jpg" alt="JJ home supplierss">
+          <p>0888 342 432
+            https://jojahomies.com/
+            <strong>Gold</strong></p>
         </div>
       </div>
     </div>
@@ -116,10 +125,7 @@
         <strong>Gold:</strong>Join at MK100,000
         <strong>Silver:</strong>Join at MK50,000
         <strong>Bronze:</strong>Join at MK20,000
-        <p>
-          <a href="join.html">Click here</a> to know the benefits and fill the form. </p>
-
-        </p>
+        <p><a href="join.html">Click here</a> to know the benefits and fill the form. </p>
     </div>
 
   </main>
@@ -151,7 +157,12 @@
     <p class="copyright">
       &copy; <span id="year"></span> |Karrass Phiri| Malawi| WDD 230 Project| Last modified: <span id="date"></span>
     </p>
-
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d967.8651722241045!2d33.798405!3d-13.990676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5ec7c10cab3dfe90!2sKawale%20Filling%20Station!5e0!3m2!1sen!2sus!4v1669160826516!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </footer>
   <script src="js/scripts.js"></script>
   <script src="js/windchill.js"></script>

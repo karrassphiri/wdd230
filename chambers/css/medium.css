@@ -147,7 +147,7 @@
     display: grid;
     grid-column: 1/4;
     grid-row: 3;
-    height: 180px;
+    height: 300px;
     border: 1px solid #555;
     margin: .5em;
 
@@ -155,7 +155,7 @@
   div.spotlight1{
     grid-column: 1/2;
     grid-row: 3;
-    height: 150px;
+    height: 250px;
     border: 1px solid#555;
     margin: .5em;
   }
@@ -163,7 +163,7 @@
   div.spotlight2{
     grid-column: 2/3;
     grid-row: 3;
-    height: 150px;
+    height: 250px;
     border: 1px solid #555;
     margin: .5em;
 
@@ -190,10 +190,22 @@
   main picture.banner img{
     width: 100%;
     height: auto;
+
+  }
+  footer .map iframe{
+    height: auto;
   }
 /*css specification for discover page*/
+main .disc{
+  margin-top: 20px;
+}
+
+main .disc h1{
+  font-size: 2rem;
+}
 #discover {
   grid-template-columns: 1fr;
+  grid-gap: 1px;
  }
 
  .media-disp {
@@ -238,6 +250,54 @@ form fieldset.benefits {
   position: absolute;
   
 
+}
+/*css specification for Contact page*/
+
+main.contactus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+main h1.contact {
+  grid-column: 1/3;
+  font-size: 3rem;
+}
+table {
+  grid-column: 1/3;
+  width: 95%;
+}
+
+th {
+  font-size: 1.5rem;
+}
+
+td {
+  font-size: 1rem;
+}
+
+main p.forminstruction{
+    font-size: 1.5rem;
+}
+main form.contactform {
+  grid-column: 1;
+  padding: 1rem;
+}
+
+iframe {
+  height: 500px;
+}
+main section {
+  margin-top: 25px;
+}
+
+main section div.findus, .findus2 {
+  border: 1px solid #2212;
+  margin-top: 10px;
+  width: 90%;
+}
+
+main section div.findus, .findus2 p{
+  font-size: 1.2rem;
 }
 
 }

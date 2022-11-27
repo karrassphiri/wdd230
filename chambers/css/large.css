@@ -14,6 +14,7 @@
   nav ul li a {
     font-size: 1rem;
     color: whitesmoke;
+    font-size: 1.2rem;
   }
   footer, header, main {
     padding: 5px 0;
@@ -33,11 +34,11 @@
     
   }
   .logo h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 0;
   }
   .logo h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0;  
   }
 .logo img {
@@ -92,6 +93,7 @@ div.spotlight2 {
   grid-column: 3;
   grid-row: 2;
   width: 150px;
+  height: min-content;
 
 }
 div.spotlight3 {
@@ -102,16 +104,26 @@ div.spotlight3 {
   height: 150px;
   border: 1px solid #555;
   background-color: lightgray;
+  height: min-content;
+
 }
 .spotlight img{
   width:120px;
   
 }
 
+
 /*css specification for discover page*/
+main .disc{
+  margin-top: 20px;
+}
+
+main .disc h1{
+  font-size: 2rem;
+}
 #discover {
   grid-template-columns: 1fr;
-  grid-gap: 10px;
+  grid-gap: 1px;
  }
 
 .media-disp {
@@ -152,4 +164,54 @@ form input.submitBtn{
 form fieldset.benefits {
   position: absolute;
 }
+
+/*CSS specification for Contact page*/
+main.contactus {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+main h1.contact {
+  grid-column: 1/4;
+  font-size: 2rem;
+}
+table {
+  grid-column: 1/4;
+}
+
+main p.forminstruction{
+    font-size: 1rem;
+    grid-column: 1/4;
+
+}
+main form.contactform {
+  grid-column: 1/4;
+}
+
+main section div.location {
+  width: auto;
+  height: 500px;
+}
+
+iframe {
+  width: 90%;
+  height: 500px;
+}
+main section {
+  margin-top: 25px;
+}
+
+
+main section div.findus, .findus2 {
+  border: 1px solid #2212;
+  margin-top: 40px;
+  width: 500px;
+
+
+}
+
+main section div.findus p{
+  font-size: 1.2rem;
+}
+
 }
