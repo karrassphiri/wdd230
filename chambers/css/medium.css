@@ -126,7 +126,6 @@
   }
 
   .event, .hero, .join, .news, .weather, .wrapper {
-    background-color: lightgray;
     margin: .5em;
   }
   .hero{

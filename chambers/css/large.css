@@ -81,31 +81,30 @@
   grid-column: 4;
   grid-row: 1/4;
   height: 800px;
+  background-color: #eee;
 
+}
+
+div.spotlight1, div.spotlight2, div.spotlight3{
+  background-color: #eee;
+  font-size: .9rem;
+  width: 150px;
+  height: min-content;
+  border: 1px solid #999;
 }
 div.spotlight1 {
   grid-column: 3;
   grid-row: 1;
-  width: 150px;
-  height: min-content;
 }
 div.spotlight2 {
   grid-column: 3;
   grid-row: 2;
-  width: 150px;
-  height: min-content;
 
 }
 div.spotlight3 {
   display: grid;
   grid-column: 3;
   grid-row: 3;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #555;
-  background-color: lightgray;
-  height: min-content;
-
 }
 .spotlight img{
   width:120px;
