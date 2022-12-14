@@ -30,8 +30,189 @@
     </ul>
   </nav>
   <main>
-      <h2 class="formtitle">Make a specialty drink</h2>
-      <form name="form">
+    <h2 class="formtitle">Make a specialty drink</h2>
+
+    <form action="thankyou.html" method="get" accept-charset="UTF-8">
+
+      <div class="row">
+        <div class="w-50">
+          <div class="input-group">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first-name" placeholder="First Name" class="input-control"
+              required />
+          </div>
+
+          <div class="input-group">
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last-name" placeholder="Last Name" class="input-control" required />
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="example@email.com" id="e-address" name="email" class="input-control"
+              required /></div>
+
+          <div class="input-group">
+            <label for="tel_num">Telephone Number</label>
+            <input type="tel" maxlength="10" required name="tel_num" id="tel" class="input-control" />
+          </div>
+
+          <div class="input-group">
+            <label for="Address_name">Address Name</label>
+            <input type="text" required name="Address_name" id="e-address" class="input-control" /></div>
+
+          <label for="b_description"><b>Select three special fruits:</b></label>
+          <div class="input-group">
+            <label for="Specials">First specials</label>
+            <select name="Three specials" id="first-special" name="Special">
+              <option value="Apple">Apple</option>
+              <option value="Apricot">Apricot</option>
+              <option value="Avocado">Avocado</option>
+              <option value="Banana">Banana</option>
+              <option vale="Blackberry">Blackberry</option>
+              <option value="Blueberry">Blueberry</option>
+              <option value="Cherry">Cherry</option>
+              <option value="Dragonfruit">Dragonfruit</option>
+              <option value="Durio">Durio</option>
+              <option value="Feijoa">Feijoa</option>
+              <option value="Fig">Fig</option>
+              <option value="Gooseberry">Gooseberry</option>
+              <option value="Grape">Grape</option>
+              <option value="Grapes">Garpes</option>
+              <option value="Greenapples">GreenApples</option>
+              <option value="Guava">Guava</option>
+              <option value="Kiwi">Kiwi</option>
+              <option value="Kiwifruit">KiwiFruit</option>
+              <option vaule="Lemon">Lemon</option>
+              <option value="Lime">Lime</option>
+              <option value="Lingonberry">Lingonberry</option>
+              <option value="Lychee">Lychee</option>
+              <option value="Mango">Mango</option>
+              <option value="Melon">Melon</option>
+              <option value="Morus">Morus</option>
+              <option value="Orange">Orange</option>
+              <option value="Papaye">Papaye</option>
+              <option value="Passionfruit">PassionFruit</option>
+              <option value="Pear">Pear</option>
+              <option value="Persiommon">Persiommon</option>
+              <option value="Pineapple">Pineapple</option>
+              <option value="Pitannaya">Pitannaya</option>
+              <option value="Plum">Plum</option>
+              <option value="Punica">Punica</option>
+              <option value="Raspberry">Raspberry</option>
+              <option value="Strawberry">Strawberry</option>
+              <option value="Tangerine">Tangerine</option>
+              <option value="Tomato">Tomato</option>
+              <option value="Watermelon">Watermelon</option>
+
+
+            </select></div>
+
+          <div class="input-group">
+            <label for="Specials">Second specials</label>
+            <select name="Three specials" id="second-special" name="Special">
+              <option value="Apple">Apple</option>
+              <option value="Apricot">Apricot</option>
+              <option value="Avocado">Avocado</option>
+              <option value="Banana">Banana</option>
+              <option vale="Blackberry">Blackberry</option>
+              <option value="Blueberry">Blueberry</option>
+              <option value="Cherry">Cherry</option>
+              <option value="Dragonfruit">Dragonfruit</option>
+              <option value="Durio">Durio</option>
+              <option value="Feijoa">Feijoa</option>
+              <option value="Fig">Fig</option>
+              <option value="Gooseberry">Gooseberry</option>
+              <option value="Grape">Grape</option>
+              <option value="Grapes">Garpes</option>
+              <option value="Greenapples">GreenApples</option>
+              <option value="Guava">Guava</option>
+              <option value="Kiwi">Kiwi</option>
+              <option value="Kiwifruit">KiwiFruit</option>
+              <option vaule="Lemon">Lemon</option>
+              <option value="Lime">Lime</option>
+              <option value="Lingonberry">Lingonberry</option>
+              <option value="Lychee">Lychee</option>
+              <option value="Mango">Mango</option>
+              <option value="Melon">Melon</option>
+              <option value="Morus">Morus</option>
+              <option value="Orange">Orange</option>
+              <option value="Papaye">Papaye</option>
+              <option value="Passionfruit">PassionFruit</option>
+              <option value="Pear">Pear</option>
+              <option value="Persiommon">Persiommon</option>
+              <option value="Pineapple">Pineapple</option>
+              <option value="Pitannaya">Pitannaya</option>
+              <option value="Plum">Plum</option>
+              <option value="Punica">Punica</option>
+              <option value="Raspberry">Raspberry</option>
+              <option value="Strawberry">Strawberry</option>
+              <option value="Tangerine">Tangerine</option>
+              <option value="Tomato">Tomato</option>
+              <option value="Watermelon">Watermelon</option>
+
+            </select></div>
+          <div class="input-group">
+            <label for="Specials">Thrid specials</label>
+            <select name="Three specials" id="third-special" name="Special">
+              <option value="Apple">Apple</option>
+              <option value="Apricot">Apricot</option>
+              <option value="Avocado">Avocado</option>
+              <option value="Banana">Banana</option>
+              <option vale="Blackberry">Blackberry</option>
+              <option value="Blueberry">Blueberry</option>
+              <option value="Cherry">Cherry</option>
+              <option value="Dragonfruit">Dragonfruit</option>
+              <option value="Durio">Durio</option>
+              <option value="Feijoa">Feijoa</option>
+              <option value="Fig">Fig</option>
+              <option value="Gooseberry">Gooseberry</option>
+              <option value="Grape">Grape</option>
+              <option value="Grapes">Garpes</option>
+              <option value="Greenapples">GreenApples</option>
+              <option value="Guava">Guava</option>
+              <option value="Kiwi">Kiwi</option>
+              <option value="Kiwifruit">KiwiFruit</option>
+              <option vaule="Lemon">Lemon</option>
+              <option value="Lime">Lime</option>
+              <option value="Lingonberry">Lingonberry</option>
+              <option value="Lychee">Lychee</option>
+              <option value="Mango">Mango</option>
+              <option value="Melon">Melon</option>
+              <option value="Morus">Morus</option>
+              <option value="Orange">Orange</option>
+              <option value="Papaye">Papaye</option>
+              <option value="Passionfruit">PassionFruit</option>
+              <option value="Pear">Pear</option>
+              <option value="Persiommon">Persiommon</option>
+              <option value="Pineapple">Pineapple</option>
+              <option value="Pitannaya">Pitannaya</option>
+              <option value="Plum">Plum</option>
+              <option value="Punica">Punica</option>
+              <option value="Raspberry">Raspberry</option>
+              <option value="Strawberry">Strawberry</option>
+              <option value="Tangerine">Tangerine</option>
+              <option value="Tomato">Tomato</option>
+              <option value="Watermelon">Watermelon</option>
+
+
+            </select></div>
+
+          <div class="input-group">
+            <label for="b_description">Instructions :</label>
+            <textarea name="b_description" id="instructions" class="input-control">
+
+</textarea>
+          </div>
+
+          <div class="input-group">
+            <input type="datetime-local" id="date" hidden name="local_date">
+          </div>
+
+          <div><input id="submitButton" type="submit"> </div>
+    </form>
+
+    <!--<form name="form">
         <fieldset>
           <legend>Details</legend>
           <label class="top"> First Name*: <input type="text" id="name" name="name" required> </label>
@@ -164,13 +345,13 @@
             <option value="watermelon">Watermelon</option>
           </select>
           <p><em>Click on the side button to view the fruits nutritions</em></p>
-          <button class="viewnutrition" id="Grid">View nutritions</button>
+          <button class="viewnutrition" id="grid">View nutritions</button>
           <div id="cards" class="cards"></div>
         </fieldset>
         <input type="submit" value="Send details to make fruit juice" class="submitBtn" onclick="check(); return false">
 
-      </form>
-      <div id="results"></div>
+      </form> -->
+    <!--<div id="results"></div>
       <div class="formresults">
         <h3>Your information will be shown here</h3>
         <div class="formdetails">
@@ -184,7 +365,7 @@
           <p id="formdate"></p>
           <p id="thanks"></p>
         </div>
-      </div> 
+      </div> -->
   </main>
   <footer>
     <div class="copyright">
