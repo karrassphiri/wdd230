@@ -29,9 +29,19 @@
       <li><a href="aboutus.html">About Us</a></li>
     </ul>
   </nav>
+  <div class="welcome">
+    <h1>Welcome to the Fresh page</h1>
+  </div>
   <main>
-    <h2 class="formtitle">Make a specialty drink</h2>
-
+    <div class="banner">
+      <picture class="bannerimg">
+        <source srcset="images/large.jpg" media="(min-width:960px)">
+        <source srcset="images/medium.jpg" media="(min-width:564px) and (max-width:958px)">
+        <img src="images/small.jpg" alt="Welcome image" loading="lazy">
+      </picture>
+      <h2 class="formtitle">Make a specialty drink</h2>
+    </div>
+    
     <form name="form">
       <fieldset>
         <legend>Customer Details</legend>

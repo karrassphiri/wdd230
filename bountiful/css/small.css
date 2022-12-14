@@ -112,7 +112,7 @@ main picture.bannerimg img{
 .banner {
   position: relative;
   margin: 1rem;
-
+  margin: .5vw 0vw;
   
 }
 main .action p{
@@ -148,12 +148,13 @@ main .action p{
   display: none;
 }
 
-.juicepic h2, .fruitpic h2, .fruitpic2 h2, .generalweather h2, .areasummary h2, .forecast h2{
+.welcome h1, .juicepic h2, .fruitpic h2, .fruitpic2 h2, .generalweather h2, .areasummary h2, .forecast h2{
   text-align: center;
   background-color: yellow;
   color: red;
   border: 1px solid red;
 }
+
 .generalweather p, .forecast1 {
   padding: 1rem;
   margin: .5rem;
@@ -233,7 +234,6 @@ form div.input-group {
   margin: .5rem 0;
 }
 
-
 form input.submitBtn {
   border: none;
   background-color: greenyellow;
@@ -248,7 +248,7 @@ form input.submitBtn {
 .instructionBox {
   display: block;
   font-size: 15px;
-  border: 1px solid #2212;
+  border: 1px solid #333;
   border-radius: 20px;
   padding: 1rem;
   width: 80%;

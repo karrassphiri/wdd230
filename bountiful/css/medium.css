@@ -99,8 +99,7 @@
     width: 90%;
     height: fit-content;
   }
-
-  
+    
 
   /********** CSS for About Us page **********/
   main {
@@ -112,6 +111,8 @@
   .bannerUs {
     grid-column: 1/3;
     grid-row: 1;
+    margin: .5vw 0vw;
+
   }
   .history {
     grid-column: 1/2;
