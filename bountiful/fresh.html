@@ -10,7 +10,10 @@
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
-  <meta name="description" content="This is a Home page of Bountiful Foods project, MT ">
+  <meta name="description" content="This is a Fresh page of Bountiful Foods project, MT ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -41,7 +44,7 @@
       </picture>
       <h2 class="formtitle">Make a specialty drink</h2>
     </div>
-    
+
     <form name="form">
       <fieldset>
         <legend>Customer Details</legend>
@@ -53,12 +56,12 @@
         <legend>Select <em>three</em>fruits to make your juice</legend>
 
         <div class="input-group">
-          <select name="Three specials" id="first-special" name="Special">
+          <select name="Three specials" id="first-special">
             <option value="Apple">Apple</option>
             <option value="Apricot">Apricot</option>
             <option value="Avocado">Avocado</option>
             <option value="Banana">Banana</option>
-            <option vale="Blackberry">Blackberry</option>
+            <option value="Blackberry">Blackberry</option>
             <option value="Blueberry">Blueberry</option>
             <option value="Cherry">Cherry</option>
             <option value="Dragonfruit">Dragonfruit</option>
@@ -72,7 +75,7 @@
             <option value="Guava">Guava</option>
             <option value="Kiwi">Kiwi</option>
             <option value="Kiwifruit">KiwiFruit</option>
-            <option vaule="Lemon">Lemon</option>
+            <option value="Lemon">Lemon</option>
             <option value="Lime">Lime</option>
             <option value="Lingonberry">Lingonberry</option>
             <option value="Lychee">Lychee</option>
@@ -97,12 +100,12 @@
         </div>
 
         <div class="input-group">
-          <select name="Three specials" id="second-special" name="Special">
+          <select name="Three specials" id="second-special">
             <option value="Apricot">Apricot</option>
             <option value="Apple">Apple</option>
             <option value="Avocado">Avocado</option>
             <option value="Banana">Banana</option>
-            <option vale="Blackberry">Blackberry</option>
+            <option value="Blackberry">Blackberry</option>
             <option value="Blueberry">Blueberry</option>
             <option value="Cherry">Cherry</option>
             <option value="Dragonfruit">Dragonfruit</option>
@@ -116,7 +119,7 @@
             <option value="Guava">Guava</option>
             <option value="Kiwi">Kiwi</option>
             <option value="Kiwifruit">KiwiFruit</option>
-            <option vaule="Lemon">Lemon</option>
+            <option value="Lemon">Lemon</option>
             <option value="Lime">Lime</option>
             <option value="Lingonberry">Lingonberry</option>
             <option value="Lychee">Lychee</option>
@@ -141,12 +144,12 @@
           </select>
         </div>
         <div class="input-group">
-          <select name="Three specials" id="third-special" name="Special">
+          <select name="Three specials" id="third-special">
             <option value="Avocado">Avocado</option>
             <option value="Apple">Apple</option>
             <option value="Apricot">Apricot</option>
             <option value="Banana">Banana</option>
-            <option vale="Blackberry">Blackberry</option>
+            <option value="Blackberry">Blackberry</option>
             <option value="Blueberry">Blueberry</option>
             <option value="Cherry">Cherry</option>
             <option value="Dragonfruit">Dragonfruit</option>
@@ -160,7 +163,7 @@
             <option value="Guava">Guava</option>
             <option value="Kiwi">Kiwi</option>
             <option value="Kiwifruit">KiwiFruit</option>
-            <option vaule="Lemon">Lemon</option>
+            <option value="Lemon">Lemon</option>
             <option value="Lime">Lime</option>
             <option value="Lingonberry">Lingonberry</option>
             <option value="Lychee">Lychee</option>
@@ -183,9 +186,9 @@
             <option value="Watermelon">Watermelon</option>
           </select>
         </div>
-        <legend>Special fruit juice instruction (optional)</legend>
+        <h4>Special fruit juice instruction (optional)</h4>
         <div class="input-group">
-          <label class="submitButton" for="msg"></label>
+          <label class="submitButton" id="msg"></label>
           <label><textarea class="instructionBox" id="instructions" name="b_description"></textarea></label>
         </div>
       </fieldset>
@@ -201,9 +204,9 @@
         <p id="tel_num"></p>
         <h3>Fruits selected are :</h3>
         <div id="nutrition"></div>
-        <p id="First special"></p>
-        <p id="Second special"></p>
-        <p id="Third special"></p>
+        <p id="First"></p>
+        <p id="Second"></p>
+        <p id="Third"></p>
 
         <h3>Special instruction (optional)</h3>
         <p id="instruction-summary"></p>
@@ -214,28 +217,23 @@
         <h3>Order Date:</h3>
         <p id="formdate"></p>
         <p id="thanks"></p>
-
       </div>
     </div>
+  </main>
+  <footer>
+    <div class="copyright">
+      &copy; |Karrass Phiri| Malawi|Bountiful Foods project|Last modified: <span id="date"></span>
+    </div>
+    <hr>
+    <div class="social">
+      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
+      <a href="https://linkedIn.com"><img src="images/linkedin.png" alt="linkedIn image"></a>
+    </div>
 
-
-</body>
-
-</main>
-<footer>
-  <div class="copyright">
-    &copy; |Karrass Phiri| Malawi|Bountiful Foods project|Last modified: <span id="date"></span>
-  </div>
-  <hr>
-  <div class="social">
-    <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
-    <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
-    <a href="https://linkedIn.com"><img src="images/linkedin.png" alt="linkedIn image"></a>
-  </div>
-
-</footer>
-<script src="js/scripts.js"></script>
-<script src="js/form.js"></script>
+  </footer>
+  <script src="js/scripts.js"></script>
+  <script src="js/form.js"></script>
 </body>
 
 </html>

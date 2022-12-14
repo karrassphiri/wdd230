@@ -9,9 +9,9 @@ btn.addEventListener("click", function (event) {
   document.getElementById('modal-container').style.display = "flex";
   document.getElementById('instruction-summary').innerHTML = document.getElementById('instructions').value;
   var first = document.getElementById('first-special');
-  document.getElementById('First special').innerHTML = first.value;
-  document.getElementById('Second special').innerHTML = document.getElementById('second-special').value;
-  document.getElementById('Third special').innerHTML = document.getElementById('third-special').value;
+  document.getElementById('First').innerHTML = first.value;
+  document.getElementById('Second').innerHTML = document.getElementById('second-special').value;
+  document.getElementById('Third').innerHTML = document.getElementById('third-special').value;
   document.getElementById('first_name').innerHTML = document.getElementById('first-name').value;
   document.getElementById('tel_num').innerHTML = document.getElementById('tel').value;
   document.getElementById('email_address').innerHTML = document.getElementById('e-address').value;

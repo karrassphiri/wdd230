@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
 footer,
 header, nav {
   display: flex;
@@ -9,6 +11,7 @@ header, nav {
   margin: 0;
   color: white;
   padding: .5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -73,6 +76,7 @@ nav ul li a {
   text-decoration: none;
   text-align: left;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 nav ul.open {
   display: block;
@@ -121,8 +125,9 @@ main .action p{
   color: black;
   width: 100%;
   font-size: 1.2rem;
-
+  font-family: 'Lato', sans-serif;
 }
+
 .action {
   position: absolute;
   bottom: -5px;
@@ -138,9 +143,12 @@ main .action p{
 .areasummary p{
   padding: .5rem;
   margin-top: -10px;
+  font-family: 'Lato', sans-serif;
+
 }
 .areasummary h3{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
  }
 
 .juicepic, .fruitpic, .fruitpic2 {
@@ -153,6 +161,7 @@ main .action p{
   background-color: yellow;
   color: red;
   border: 1px solid red;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .generalweather p, .forecast1 {
@@ -160,13 +169,18 @@ main .action p{
   margin: .5rem;
   text-align: center;
   font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+
 }
 .generalweather p{
   text-align: left;
+  font-family: 'Lato', sans-serif;
+
 }
 .forecast h2, .generalweather h2, .areasummary h2, .juicepic h2, .fruitpic h2, .fruitpic2 h2{
   padding: .5rem;
   height:fit-content;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .juicepic img, .fruitpic img, .fruitpic2 img, .juice img, .fruit img, .fruit2 img {
@@ -194,6 +208,7 @@ main h2 {
   background-color: yellow;
   color: red;
   border: 1px solid red;
+  font-family: 'Montserrat', sans-serif;
 
 }
 form fieldset {
@@ -269,6 +284,8 @@ form input.submitBtn {
 .formresults p, div#summary {
   color: white;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+
 }
 
 
@@ -283,8 +300,14 @@ form input.submitBtn {
   text-decoration: none;
   margin-top: .5rem;
 }
-.history p, .contactinfo h3, .history2 p {
+.history p, .history2 p {
   padding: 1rem;
+  font-family: 'Lato', sans-serif;
+
+}
+.contactinfo h3{
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bannerUs {
