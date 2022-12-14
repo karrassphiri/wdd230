@@ -227,11 +227,13 @@ form label.top input
 
 }
 
-form select.fruit {
+form div.input-group {
   display: flex;
   padding: .5rem;
   margin: .5rem 0;
 }
+
+
 form input.submitBtn {
   border: none;
   background-color: greenyellow;
@@ -264,22 +266,11 @@ form input.submitBtn {
   margin-bottom: 1rem;
   text-align: center;
 }
-.formresults p {
+.formresults p, div#summary {
   color: white;
   text-align: center;
 }
 
-.fruitslist {
-  position: relative;
-}
-.viewnutrition {
-  position: absolute;
-  top: 50px;
-  right: 5px;
-  background-color: #ff0;
-  color: red;
-  border-radius: 50px;
-}
 
 /********** CSS for About Us page **********/
 .resource {
