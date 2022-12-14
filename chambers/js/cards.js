@@ -60,7 +60,6 @@ getBusinesses("grid");
 
 gridbutton.addEventListener("click", () => {
     display.classList.add("grid");
-    display.classList.remove("list");
   
 });
 
