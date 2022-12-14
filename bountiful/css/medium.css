@@ -93,9 +93,13 @@
     grid-row: 1;
   }
   .formresults {
+    grid-column: 2/3;
+    margin-top: 10px;
+    grid-row: 2;
     width: 90%;
     height: fit-content;
   }
+
   
 
   /********** CSS for About Us page **********/
@@ -126,4 +130,8 @@
     grid-row: 3;
   }
   
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
