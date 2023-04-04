@@ -9,16 +9,16 @@
         "price":  "$ 2.00"
       },
       {
-        "name": "Mango",
+        "name": "Pear",
         "ftype": "fresh",
-        "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-        "price":  "$ 2.00"
+        "photo": "https://karrassphiri.github.io/wdd230/fruits/pear.jpg",
+        "price":  "$ 3.00"
       },
       {
-        "name": "Mango",
+        "name": "Orange",
         "ftype": "fresh",
-        "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-        "price":  "$ 2.00"
+        "photo": "https://karrassphiri.github.io/wdd230/fruits/orange.jpg",
+        "price":  "$ 0.50"
       },
       {
         "name": "Mango",
