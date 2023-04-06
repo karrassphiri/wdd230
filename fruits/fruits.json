@@ -4,7 +4,7 @@
     "fruits": [
       {
         "name": "Almonds",
-        "ftype": "fresh",
+        "ftype": "Dry",
         "photo": "https://karrassphiri.github.io/wdd230/fruits/almonds.jpg",
         "price":  "MK 20.00"
       },
@@ -16,7 +16,7 @@
       },
       {
         "name": "Apricot",
-        "ftype": "fresh",
+        "ftype": "Dry",
         "photo": "https://karrassphiri.github.io/wdd230/fruits/apricot.jpg",
         "price":  "MK 100.00"
       },
@@ -40,19 +40,19 @@
       },
       {
         "name": "Cashew",
-        "ftype": "dry",
+        "ftype": "Dry",
         "photo": "https://karrassphiri.github.io/wdd230/fruits/cashew.jpg",
         "price":  "MK 500.00"
       },
       {
         "name": "Dates",
-        "ftype": "dry",
+        "ftype": "Dry",
         "photo": "https://karrassphiri.github.io/wdd230/fruits/dates.jpg",
         "price":  "MK 1500.00"
       },
       {
         "name": "Figs",
-        "ftype": "dry",
+        "ftype": "Dry",
         "photo": "https://karrassphiri.github.io/wdd230/fruits/figs.jpg",
         "price":  "MK 1000.00"
       },
@@ -124,13 +124,13 @@
       },
       {
         "name": "Raisins",
-        "ftype": "fresh",
+        "ftype": "Dry",
         "photo": "https://karrassphiri.github.io/wdd230/fruits/raisins.jpg",
         "price":  "MK 200.00"
       },
       {
         "name": "Rowanberries",
-        "ftype": "dry",
+        "ftype": "Dry",
         "photo": "https://karrassphiri.github.io/wdd230/fruits/rowanberries.jpg",
         "price":  "MK 500.00"
       },
